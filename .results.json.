@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-11-08T23:58:02.746Z",
+    "end": "2023-11-08T23:58:03.190Z",
+    "duration": 444
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "receives a function and calls it",
+      "fullTitle": "index receivesAFunction(callback) receives a function and calls it",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: receivesAFunction is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "receivesAFunction is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
